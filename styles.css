@@ -1,0 +1,327 @@
+@font-face{
+    font-family: 'Cyberpunk';
+    src: url(fonts/cybershrift.ttf);
+         url(fonts/cybershrift.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DangerFlightCondital';
+    src: url(fonts/dangerflightcondital.ttf);
+         url(fonts/dangerflightcondital.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DangerFlightExpanded';
+    src: url(fonts/dangerflightexppand.ttf);
+    url(fonts/dangerflightexppand.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BulletFont';
+    src: url(fonts/bulletfont.ttf);
+         url(fonts/bulletfont.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(fonts/helvetica.otf);
+         url(fonts/helvetica.otf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    height: 2000px;
+}
+
+.back {
+    position: fixed;
+}
+
+.shapka {
+    position: relative;
+}
+
+.before_logo {
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    font-family: "DangerFlightCondital";
+    color: #57bcc4;
+    font-size: 80px;
+    letter-spacing: 8px;
+    line-height: 20.0px;
+    font-weight: 1000;
+}
+
+.before_logo2 {
+    position: absolute;
+    top: 250px;
+    left: 995px;
+    font-family: "DangerFlightCondital";
+    color: #000000;
+    font-size: 80px;
+    letter-spacing: 8px;
+    line-height: 20.0px;
+    font-weight: 1000;
+}
+
+.after_logo {
+    position: absolute;
+    top: 635px;
+    left: 1096px;
+    font-family: "Cyberpunk";
+    color: #57bcc4;
+    font-size: 50px;
+    font-weight:600;
+}
+
+.after_logo2 {
+    position: absolute;
+    top: 635px;
+    left: 1093px;
+    font-family: "Cyberpunk";
+    color: #000000;
+    font-size: 50px;
+    font-weight:600;
+}
+
+.countdown {
+    display: flex;
+    position:absolute;
+    color: #000000;
+    font-size: 65px;
+    z-index: 999;
+}
+
+.time-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #090808;
+    font-family: "DangerFlightCondital";
+    padding: 0 30px;
+    border-right: 5px solid #000000;
+    position:relative;
+    top: -380px;
+    left: 1030px;
+    font-size: 62px;
+    text-shadow: 3px 3px 3px #57bcc4;
+}
+
+.time-section:last-child {
+    border: none;
+    color: #090808;
+}
+
+.count {
+    font-size: 150px;
+}
+
+.units {
+    font-size: 30px;
+    position: static;
+}
+
+.picture_1 {
+    position:absolute;
+    margin:50px 0px 0px 50px;
+}
+
+.picture_2 {
+    position:absolute;
+    margin:50px 0px 0px 950px;
+}
+
+.large-open-world {
+    position:absolute;
+    margin:65px 0px 0px 1090px;
+    font-size: 55px;
+    font-family: 'BulletFont';
+}
+
+.text_1 {
+    position:absolute;
+    margin:155px 0px 0px 980px;
+    font-size: 43px;
+    width:850px;
+    font-family: "DangerFlightExpanded";
+}
+
+.picture_3 {
+    position:absolute;
+    margin:700px 0px 0px 50px;
+}
+
+.picture_4 {
+    position:absolute;
+    margin:700px 0px 0px 950px;
+}
+
+.a-lot-of-gangs {
+    position:absolute;
+    margin:715px 0px 0px 1150px;
+    font-size: 55px;
+    font-family: 'BulletFont';
+}
+
+.text_2 {
+    position:absolute;
+    margin:800px 0px 0px 980px;
+    font-size: 43px;
+    width:850px;
+    font-family: "DangerFlightExpanded";
+}
+
+.picture_5 {
+    position:absolute;
+    margin:1350px 0px 0px 50px;
+}
+
+.picture_6 {
+    position:absolute;
+    margin:1350px 0px 0px 950px;
+}
+
+.the-near-future-of-humanity {
+    position:absolute;
+    margin:1400px 0px 0px 1080px;
+    font-size: 55px;
+    line-height: 1.5px;
+    font-family: 'BulletFont';
+}
+
+.text_3 {
+    position:absolute;
+    margin:1500px 0px 0px 980px;
+    font-size: 43px;
+    width:850px;
+    font-family: "DangerFlightExpanded";
+}
+
+.picture_8 {
+    position:absolute;
+    margin:2000px 0px 0px 50px;
+}
+.picture_9 {
+    position:absolute;
+    margin:2000px 0px 0px 950px;
+}
+
+.full-character-customization {
+    position:absolute;
+    margin:2015px 0px 0px 1140px;
+    font-size: 55px;
+    width:800px;
+    font-family: 'BulletFont';
+    line-height: 1.0em;
+}
+
+.text_4 {
+    position:absolute;
+    margin:2175px 0px 0px 980px;
+    font-size: 43px;
+    width:850px;
+    font-family: "DangerFlightExpanded";
+}
+
+.footer {
+    position:absolute;
+    margin:2650px 0px 0px 0px;
+}
+
+.social {
+    position:absolute;
+    margin:2715px 0px 0px 670px;
+    font-size: 15px;
+    font-family: "Helvetica";
+}
+
+.buy-now {
+    position:absolute;
+    margin:2820px 0px 0px 605px;
+    font-size: 80px;
+    width:900px;
+    color: #57bcc4;
+    font-family: 'BulletFont';
+}
+
+.b2uy-now {
+    position:absolute;
+    margin:2820px 0px 0px 600px;
+    font-size: 80px;
+    width:900px;
+    color: #000000;
+    font-family: 'BulletFont';
+}
+
+.youtube-logo {
+    position: absolute;
+    margin:2705px 0px 0px 760px;
+}
+
+.twitch-logo {
+    position: absolute;
+    margin:2705px 0px 0px 830px;
+}
+
+.nvidia-logo {
+    position: absolute;
+    margin: 3000px 0px 0px 980px;
+}
+
+.discord-logo {
+    position: absolute;
+    margin:2700px 0px 0px 900px;
+}
+
+.twitter-logo {
+    position: absolute;
+    margin:2705px 0px 0px 975px;
+}
+
+.alienware-logo {
+    position: absolute;
+    margin: 3000px 0px 0px 600px;
+    filter: brightness(-90%);
+}
+
+.instagram-logo {
+    position: absolute;
+    margin:2700px 0px 0px 1040px;
+    filter: brightness(-90%);
+}
+
+.tumblr-logo {
+    position: absolute;
+    margin:2700px 0px 0px 1105px;
+}
+
+.privacy {
+    position:absolute;
+    margin:3100px 0px 0px 530px;
+    font-size: 13px;
+    width:900px;
+    line-height: 1.0em;
+    font-family: "Helvetica";
+    color: black;
+}
+
+
+
+
+
+
+
