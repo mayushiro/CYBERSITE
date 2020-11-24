@@ -50,51 +50,50 @@ body {
 }
 
 .shapka {
-    position: relative;
-    width: 800px;
+    position:relative;
 }
 
 .before_logo {
     position: absolute;
-    top: 250px;
-    left: 1000px;
+    top: 175px;
+    left: 55px;
     font-family: "DangerFlightCondital";
     color: #57bcc4;
-    font-size: 80px;
-    letter-spacing: 8px;
+    font-size: 64px;
+    letter-spacing: 2px;
     line-height: 20.0px;
     font-weight: 1000;
 }
 
 .before_logo2 {
     position: absolute;
-    top: 250px;
-    left: 995px;
+    top: 175px;
+    left: 50px;
     font-family: "DangerFlightCondital";
     color: #000000;
-    font-size: 80px;
-    letter-spacing: 8px;
+    font-size: 64px;
+    letter-spacing: 2px;
     line-height: 20.0px;
     font-weight: 1000;
 }
 
 .after_logo {
     position: absolute;
-    top: 635px;
-    left: 1096px;
+    top: 530px;
+    left: 80px;
     font-family: "Cyberpunk";
     color: #57bcc4;
-    font-size: 50px;
+    font-size: 40px;
     font-weight:600;
 }
 
 .after_logo2 {
     position: absolute;
-    top: 635px;
-    left: 1093px;
+    top: 530px;
+    left: 75px;
     font-family: "Cyberpunk";
     color: #000000;
-    font-size: 50px;
+    font-size: 40px;
     font-weight:600;
 }
 
@@ -102,8 +101,8 @@ body {
     display: flex;
     position:absolute;
     color: #000000;
-    font-size: 65px;
     z-index: 999;
+
 }
 
 .time-section {
@@ -113,12 +112,12 @@ body {
     align-items: center;
     color: #090808;
     font-family: "DangerFlightCondital";
-    padding: 0 30px;
-    border-right: 5px solid #000000;
+    padding: 0 25px;
+    border-right: 4px solid #000000;
     position:relative;
-    top: -380px;
-    left: 1030px;
-    font-size: 62px;
+    top: -240px;
+    left: 35px;
+    font-size: 25px;
     text-shadow: 3px 3px 3px #57bcc4;
 }
 
@@ -128,77 +127,63 @@ body {
 }
 
 .count {
-    font-size: 150px;
+    font-size: 120px;
 }
 
 .units {
-    font-size: 30px;
+    font-size: 25px;
     position: static;
 }
 
-.picture_1 {
-    position:absolute;
-    margin:50px 0px 0px 50px;
-}
 
 .picture_2 {
     position:absolute;
-    margin:50px 0px 0px 950px;
+    margin:50px 0px 0px 0px;
 }
 
 .large-open-world {
     position:absolute;
-    margin:65px 0px 0px 1090px;
+    margin:65px 0px 0px 55px;
     font-size: 55px;
     font-family: 'BulletFont';
 }
 
 .text_1 {
     position:absolute;
-    margin:155px 0px 0px 980px;
-    font-size: 43px;
-    width:850px;
+    margin:155px 0px 0px 20px;
+    font-size: 37px;
+    width:700px;
     font-family: "DangerFlightExpanded";
-}
-
-.picture_3 {
-    position:absolute;
-    margin:700px 0px 0px 50px;
 }
 
 .picture_4 {
     position:absolute;
-    margin:700px 0px 0px 950px;
+    margin:700px 0px 0px 0px;
 }
 
 .a-lot-of-gangs {
     position:absolute;
-    margin:715px 0px 0px 1150px;
+    margin:715px 0px 0px 100px;
     font-size: 55px;
     font-family: 'BulletFont';
 }
 
 .text_2 {
     position:absolute;
-    margin:800px 0px 0px 980px;
-    font-size: 43px;
-    width:850px;
+    margin:820px 0px 0px 20px;
+    font-size: 37px;
+    width:700px;
     font-family: "DangerFlightExpanded";
-}
-
-.picture_5 {
-    position:absolute;
-    margin:1350px 0px 0px 50px;
 }
 
 .picture_6 {
     position:absolute;
-    margin:1350px 0px 0px 950px;
+    margin:1350px 0px 0px 0px;
 }
 
 .the-near-future-of-humanity {
     position:absolute;
-    margin:1400px 0px 0px 1080px;
+    margin:1400px 0px 0px 35px;
     font-size: 55px;
     line-height: 1.5px;
     font-family: 'BulletFont';
@@ -206,24 +191,20 @@ body {
 
 .text_3 {
     position:absolute;
-    margin:1500px 0px 0px 980px;
-    font-size: 43px;
-    width:850px;
+    margin:1510px 0px 0px 30px;
+    font-size: 37px;
+    width:700px;
     font-family: "DangerFlightExpanded";
 }
 
-.picture_8 {
-    position:absolute;
-    margin:2000px 0px 0px 50px;
-}
 .picture_9 {
     position:absolute;
-    margin:2000px 0px 0px 950px;
+    margin:2000px 0px 0px 0px;
 }
 
 .full-character-customization {
     position:absolute;
-    margin:2015px 0px 0px 1140px;
+    margin:2015px 0px 0px 95px;
     font-size: 55px;
     width:800px;
     font-family: 'BulletFont';
@@ -232,9 +213,9 @@ body {
 
 .text_4 {
     position:absolute;
-    margin:2175px 0px 0px 980px;
-    font-size: 43px;
-    width:850px;
+    margin:2175px 0px 0px 30px;
+    font-size: 37px;
+    width:700px;
     font-family: "DangerFlightExpanded";
 }
 
@@ -245,15 +226,15 @@ body {
 
 .social {
     position:absolute;
-    margin:2715px 0px 0px 670px;
+    margin:2715px 0px 0px 150px;
     font-size: 15px;
     font-family: "Helvetica";
 }
 
 .buy-now {
     position:absolute;
-    margin:2820px 0px 0px 605px;
-    font-size: 80px;
+    margin:2870px 0px 0px 55px;
+    font-size: 70px;
     width:900px;
     color: #57bcc4;
     font-family: 'BulletFont';
@@ -261,8 +242,8 @@ body {
 
 .b2uy-now {
     position:absolute;
-    margin:2820px 0px 0px 600px;
-    font-size: 80px;
+    margin:2870px 0px 0px 50px;
+    font-size: 70px;
     width:900px;
     color: #000000;
     font-family: 'BulletFont';
@@ -270,51 +251,51 @@ body {
 
 .youtube-logo {
     position: absolute;
-    margin:2705px 0px 0px 760px;
+    margin:2705px 0px 0px 240px;
 }
 
 .twitch-logo {
     position: absolute;
-    margin:2705px 0px 0px 830px;
+    margin:2705px 0px 0px 300px;
 }
 
 .nvidia-logo {
     position: absolute;
-    margin: 2970px 0px 0px 1020px;
+    margin: 3000px 0px 0px 380px;
 }
 
 .discord-logo {
     position: absolute;
-    margin:2700px 0px 0px 900px;
+    margin:2700px 0px 0px 360px;
 }
 
 .twitter-logo {
     position: absolute;
-    margin:2705px 0px 0px 975px;
+    margin:2705px 0px 0px 430px;
 }
 
 .alienware-logo {
     position: absolute;
-    margin: 2970px 0px 0px 640px;
+    margin: 3010px 0px 0px 80px;
     filter: brightness(-90%);
 }
 
 .instagram-logo {
     position: absolute;
-    margin:2700px 0px 0px 1040px;
+    margin:2700px 0px 0px 485px;
     filter: brightness(-90%);
 }
 
 .tumblr-logo {
     position: absolute;
-    margin:2700px 0px 0px 1105px;
+    margin:2700px 0px 0px 545px;
 }
 
 .privacy {
     position:absolute;
-    margin:3100px 0px 0px 530px;
+    margin:3130px 0px 0px 70px;
     font-size: 13px;
-    width:900px;
+    width:700px;
     line-height: 1.0em;
     font-family: "Helvetica";
     color: black;
@@ -322,7 +303,7 @@ body {
 
 .dws {
     position: absolute;
-    margin:2700px 0px 0px 1700px;;
+    margin:2820px 0px 0px 350px;;
     transform: translate(-50%, -50%);
 }
 
@@ -371,8 +352,14 @@ body {
     left: 0;
 }
 
+.rights {
+    margin-left:60px;
+margin-top:10px;
+}
 
-
+.copyrights {
+    margin:10px 0px 0px 160px;
+}
 
 
 
